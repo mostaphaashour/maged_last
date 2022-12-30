@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/out.css" />
+    <link rel="stylesheet" href="scss/main.css" />
+    <!-- <link rel="stylesheet" href="publ.css" /> -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <!-- <link rel="stylesheet" href="../dist/output.css" /> -->
+
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>مخازن قطاع الحماية المجتمعية</title>
+  </head>
+  <body
+    class="text-slate-700 font-bold min-w-[360px] bg-darkbg-dark lg:h-[100vh]"
+  >
+    <!-- header -->
+    <div class="theme dark h-[90%]">
+      <div class="head bg-bg mb-2 dark:bg-darkbg-dark">
+        <div class="container py-4 flex justify-between items-center">
+          <div class="righ">
+            <h1 class="text-slate-800 dark:text-white font-bold text-3xl">
+              مخازن قطاع الحماية المجتمعية
+            </h1>
+          </div>
+          <div class="lef ml-4 relative">
+            <span class="icon not">
+              <i class="fa-sharp fa-solid fa-bell dark:text-white"></i>
+            </span>
+            <div
+              class="notifications text-center my-auto mx-auto bg-white w-[250px] h-[100px] absolute top-8 left-0 z-10 text-gray-500 rounded-lg hidden"
+            >
+              لا توجد اشعارات
+            </div>
+            <!-- <span class="mr-5">
+            <input type="checkbox" id="cb" class="checkbox" />
+          </span> -->
+            <!-- <label for="cb" class="mr-2 cursor-pointer dark:text-slate-400"
+            >Dark Mode</label
+          > -->
+          </div>
+        </div>
+      </div>
+      <div class="all dark:bg-darkbg-dark relative h-[90%]">
+        <div class="container h-full">
+          <!-- cards -->
+          <div
+            class="cards grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-3 h-full"
+          >
+            <!-- card -->
+            <div
+              class="card before:bg-sky-500 h-full flex justify-center items-center"
+              data-num="5"
+            >
+              <div class="pt-6 text-slate-800 dark:text-white w-full mx-1">
+                <span class="text-4xl">ملابس مجندين</span>
+                <div
+                  class="flex items-end flex-col w-full justify-around mt-10 text-white gap-2"
+                >
+                  <a
+                    href="mlabs_op_sarf.html"
+                    id="sarfmlabs"
+                    class="rounded-md bg-sky-500 p-5 w-full"
+                    >صرف</a
+                  >
+                  <a
+                    href="mlabs_op_ertega3.html"
+                    id="ertega3mlabs"
+                    class="rounded-md bg-sky-500 p-5 w-full"
+                    >ارتجاع</a
+                  >
+                  <a
+                    href="mlabs_op_gard.html"
+                    id="gardmlabs"
+                    class="rounded-md bg-sky-500 p-5 w-full"
+                    >جرد</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div
+              class="card before:bg-sky-500 h-full flex justify-center items-center"
+              data-num="5"
+            >
+              <div class="pt-6 text-slate-800 dark:text-white w-full mx-1">
+                <span class="text-4xl">مهمات</span>
+                <div
+                  class="flex items-end flex-col w-full justify-around mt-10 text-white gap-2"
+                >
+                  <a
+                    href="mohemat_op_sarf.html"
+                    class="rounded-md bg-sky-500 p-5 w-full"
+                    >صرف</a
+                  >
+                  <a
+                    href="mohemat_op_ertega3.html"
+                    class="rounded-md bg-sky-500 p-5 w-full"
+                    >ارتجاع</a
+                  >
+                  <a
+                    href="mohemat_op_gard.html"
+                    class="rounded-md bg-sky-500 p-5 w-full"
+                    >جرد</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- card -->
+            <div
+              class="card before:bg-sky-500 h-full flex justify-center items-center"
+              data-num="5"
+            >
+              <div class="pt-6 text-slate-800 dark:text-white w-full mx-1">
+                <span class="text-4xl">خامات</span>
+                <div
+                  class="flex items-end flex-col w-full justify-around mt-10 text-white gap-2"
+                >
+                  <a
+                    href="khamat_op_sarf.html"
+                    class="rounded-md bg-sky-500 p-5 w-full"
+                    >صرف</a
+                  >
+                  <a
+                    href="khamat_op_ertega3.html"
+                    class="rounded-md bg-sky-500 p-5 w-full"
+                    >ارتجاع</a
+                  >
+                  <a
+                    href="khamat_op_gard .html"
+                    class="rounded-md bg-sky-500 p-5 w-full"
+                    >جرد</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- left: 50%; top: 50%; transform: translate(-50%, -50%); } -->
+    </div>
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <!-- render icon as svg icon -->
+    <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+<!-- npx tailwindcss -i ./project/css/style.css -o ./project/css/out.css --watch -->
